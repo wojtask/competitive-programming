@@ -7,12 +7,15 @@ using namespace std;
 #define PB push_back
 #define MP make_pair
 
-#define REP(i,n) for (int (i) = 0; (i) < (n); (i)++)
-#define FOR(i,a,b) for (int (i) = (a); (i) < (b); (i)++)
+#define REP(i,n)    for (int (i) = 0; (i) < (n); (i)++)
+#define FOR(i,a,b)  for (int (i) = (a); (i) < (b); (i)++)
 #define FORI(i,a,b) for (int (i) = (a); (i) <= (b); (i)++)
 #define FORD(i,b,a) for (int (i) = (b) - 1; (i) >= (a); (i)--)
-#define FORE(i,u) for (auto (i): (u))
-#define ALL(u) (u).begin(), (u).end()
+#define FORE(i,u)   for (auto (i): (u))
+#define ALL(u)      (u).begin(), (u).end()
+
+#define INF   0x7fffffff
+#define INFLL 0x7fffffffffffffffLL
 
 typedef long long LL;
 typedef unsigned long long ULL;
