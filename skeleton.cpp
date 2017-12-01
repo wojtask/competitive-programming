@@ -29,20 +29,20 @@ typedef stack<int> TI;
 typedef queue<int> QI;
 typedef priority_queue<int> PRI;
 
-inline void get(int &x) {scanf("%d", &x);}
-inline void get(LL &x) {scanf("%lld", &x);}
-inline void get(ULL &x) {scanf("%llu", &x);}
-inline void get(double &x) {scanf("%lf", &x);}
-inline void get(LD &x) {scanf("%Lf", &x);}
-inline void get(char *s) {scanf("%s", s);}
-inline void get(char &c) {while ((c = getchar()) > 126 || c < 33);}
-inline void put(int x) {printf("%d", x);}
-inline void put(LL x) {printf("%lld", x);}
-inline void put(ULL x) {printf("%llu", x);}
-inline void put(double x) {printf("%lf", x);}
-inline void put(LD x) {printf("%Lf", x);}
-inline void put(char *s) {printf(s);}
-inline void put(char c) {putchar(c);}
+inline int get(int &x) { return scanf("%d", &x); }
+inline int get(LL &x) { return scanf("%lld", &x); }
+inline int get(ULL &x) { return scanf("%llu", &x); }
+inline int get(double &x) { return scanf("%lf", &x); }
+inline int get(LD &x) { return scanf("%Lf", &x); }
+inline int get(char *s) { return scanf("%s", s); }
+inline int get(char &c) { while ((c = getchar()) > 126 || c < 33); return c; }
+inline void put(int x) { printf("%d", x); }
+inline void put(LL x) { printf("%lld", x); }
+inline void put(ULL x) { printf("%llu", x); }
+inline void put(double x) { printf("%lf", x); }
+inline void put(LD x) { printf("%Lf", x); }
+inline void put(const char *s) { printf(s); }
+inline void put(char c) { putchar(c); }
 
 int main()
 {
