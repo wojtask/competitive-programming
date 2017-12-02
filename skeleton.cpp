@@ -43,6 +43,7 @@ inline void put(double x) { printf("%lf", x); }
 inline void put(LD x) { printf("%Lf", x); }
 inline void put(const char *s) { printf(s); }
 inline void put(char c) { putchar(c); }
+inline void endl() { put('\n'); }
 
 int main()
 {
